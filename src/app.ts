@@ -43,7 +43,6 @@ const todayEvents2String = (): string => {
         if (calendarEvent.getMyStatus() as GoogleAppsScript.Calendar.GuestStatus === CalendarApp.GuestStatus.NO) {
             return 
         }
-        console.log(calendarEvent.getTitle())
         str += `- ${calendarEvent.getTitle()}\n`
         str += `  - 時間: ${event2TimeString(calendarEvent)}\n`
 
