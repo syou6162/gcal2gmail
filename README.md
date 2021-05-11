@@ -8,5 +8,7 @@ Google Calendarの今日の予定をGmailに送信するGoogle App Scriptです�
 ## Deploy
 - `npm install`
 - `clasp login`
+- `_clasp.json`を`.clasp.json`にrenameし、GASのidを埋める
+  - ない場合は新規のものを作成する
 - `clasp push && clasp open`
 - 初回だけ、`setOnceTrigger`を手動で実行する必要がある
